@@ -1,13 +1,17 @@
-﻿# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/.idea.BlazorApp1.iml
-/modules.xml
-/projectSettingsUpdater.xml
-/contentModel.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+﻿Byggresultat och temporära mappar som ALDRIG ska laddas upp
+Git kommer nu att ignorera alla mappar som heter 'bin' och 'obj'
+[Bb]in/
+[Oo]bj/
+.vs/
+.pdb
+
+Rider och IDE-inställningar (dessa är lokala för din dator)
+.idea/
+*.user
+*.suo
+*.sln.DotSettings
+*.csproj.DotSettings
+
+Paket och beroenden
+/packages/
+/node_modules/
