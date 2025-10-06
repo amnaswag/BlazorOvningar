@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Kod C#\\amna\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{461EE7CD-7A51-4FFC-BE61-4C0E559B5EFC}|Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj|c:\\users\\user\\desktop\\kod c#\\amna\\blazor\u00F6vningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461EE7CD-7A51-4FFC-BE61-4C0E559B5EFC}|Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj|solutionrelative:blazor\u00F6vningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461EE7CD-7A51-4FFC-BE61-4C0E559B5EFC}|Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj|c:\\users\\user\\desktop\\kod c#\\amna\\blazor\u00F6vningar\\blazor\u00F6vningar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{461EE7CD-7A51-4FFC-BE61-4C0E559B5EFC}|Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj|solutionrelative:blazor\u00F6vningar\\blazor\u00F6vningar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Kod C#\\amna\\Blazor\u00D6vningar\\Program.cs",
+              "RelativeDocumentMoniker": "Blazor\u00D6vningar\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Kod C#\\amna\\Blazor\u00D6vningar\\Program.cs",
+              "RelativeToolTip": "Blazor\u00D6vningar\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T10:35:13.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Blazor\u00D6vningar",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Kod C#\\amna\\Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj",
+              "RelativeDocumentMoniker": "Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Kod C#\\amna\\Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj",
+              "RelativeToolTip": "Blazor\u00D6vningar\\Blazor\u00D6vningar.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T10:35:06.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
