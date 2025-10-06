@@ -1,0 +1,83 @@
+﻿<h3>StudentManager</h3>
+
+@page "/students"
+@inject IStudentService StudentService
+@using BlazorÖvningar.Models 
+@using BlazorÖvningar.Services
+
+
+<h3>Student Manager</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name <button class="btn btn-link" @onclick="() => SortByName()">⇅</button></th>
+            <th>Grade <button class="btn btn-link" @onclick="() => SortByGrade()">⇅</button></th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Students)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Grade</td>
+                <td>
+                    <button class="btn btn-danger btn-sm" @onclick="() => RemoveStudent(student.Id)">Radera</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h4>Lägg till student</h4>
+<input @bind="NewStudent.Name" placeholder="Namn" />
+<input @bind="NewStudent.Grade" type="number" placeholder="Betyg" />
+<button class="btn btn-success" @onclick="AddStudent">Lägg till</button>
+
+
+@code {
+    private List<Student> Students = new List<Student>();
+    private Student NewStudent = new Student();
+    private bool sortAscending = true;
+
+    // Laddar data vid komponentens start
+    protected override void OnInitialized()
+    {
+        Students = StudentService.GetStudents();
+    }
+
+    private void AddStudent()
+    {
+        if (!string.IsNullOrWhiteSpace(NewStudent.Name))
+        {
+            StudentService.AddStudent(NewStudent);
+            Students = StudentService.GetStudents(); // Uppdatera listan
+            NewStudent = new Student(); // Rensa formuläret
+        }
+    }
+
+    private void RemoveStudent(Guid id)
+    {
+        StudentService.DeleteStudent(id);
+        Students = StudentService.GetStudents(); // Uppdatera listan
+    }
+
+    private void SortByName()
+    {
+        Students = sortAscending 
+            ? Students.OrderBy(s => s.Name).ToList() 
+            : Students.OrderByDescending(s => s.Name).ToList();
+        
+        sortAscending = !sortAscending;
+    }
+
+    private void SortByGrade()
+    {
+        Students = sortAscending 
+            ? Students.OrderBy(s => s.Grade).ToList() 
+            : Students.OrderByDescending(s => s.Grade).ToList();
+
+        sortAscending = !sortAscending;
+    }
+}
