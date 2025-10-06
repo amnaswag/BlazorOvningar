@@ -1,39 +1,27 @@
-﻿<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
+﻿<div class="menu-nav-container">
+    <nav class="d-flex justify-content-center w-100">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
         </div>
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                <span class="oi oi-plus" aria-hidden="true"></span> Amna & Israa
             </NavLink>
         </div>
+
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Weather
+            <NavLink class="nav-link" href="students">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Student Manager
             </NavLink>
         </div>
         
-        <!-- START: Din nya länk till Student Manager -->
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="students">
-                <span class="oi oi-people" aria-hidden="true"></span> Student Manager
+            <NavLink class="nav-link" href="weather">
+                <span class="oi oi-sun" aria-hidden="true"></span> Vädersida
             </NavLink>
         </div>
-        <!-- SLUT: Din nya länk till Student Manager -->
-
     </nav>
 </div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}

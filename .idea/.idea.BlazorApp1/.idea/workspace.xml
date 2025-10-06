@@ -8,7 +8,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b50592b-6bc3-494d-90c6-c7f9509fadcc" name="Changes" comment="" />
+    <list default="true" id="4b50592b-6bc3-494d-90c6-c7f9509fadcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Layout/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Layout/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Pages/Counter.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Pages/StudentManager.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Pages/StudentManager.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Pages/Weather.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Pages/Weather.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/Services/StudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/Services/StudentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/BlazorÖvningar.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/BlazorÖvningar.ca3tbr39sm.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/BlazorÖvningar.ca3tbr39sm.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/BlazorÖvningar.vl99nvvext.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/BlazorÖvningar.vl99nvvext.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/dotnet.js" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/dotnet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.50iqa8w3ys.js" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.50iqa8w3ys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.ew19f13umk.js" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.ew19f13umk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/BlazorÖvningar.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/compressed/6a5qpvfwpd-vl99nvvext.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/compressed/8q51h6awne-8rbvw3on5j.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/compressed/dyv7xn5rov-ca3tbr39sm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/compressed/i0vosvtt2r-70nyan8zjs.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/compressed/ms4lnras5x-2lce1aavos.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rbcswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/ref/BlazorÖvningar.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/ref/BlazorÖvningar.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/refint/BlazorÖvningar.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/refint/BlazorÖvningar.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rjimswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/tmp-webcil/BlazorÖvningar.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/tmp-webcil/BlazorÖvningar.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/webcil/BlazorÖvningar.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/Debug/net9.0/webcil/BlazorÖvningar.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/wwwroot/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorÖvningar/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorÖvningar/wwwroot/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,30 +117,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.BlazorÖvningar: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "amnas-student-branch",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.BlazorÖvningar: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;amnas-student-branch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BlazorÖvningar: http">
     <configuration name="BlazorÖvningar: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlazorÖvningar/BlazorÖvningar.csproj" />
@@ -136,7 +190,12 @@
       <workItem from="1759736390960" duration="414000" />
       <workItem from="1759736873680" duration="121000" />
       <workItem from="1759737049373" duration="4266000" />
-      <workItem from="1759741647709" duration="2346000" />
+      <workItem from="1759741647709" duration="3273000" />
+      <workItem from="1759748095516" duration="50000" />
+      <workItem from="1759749829444" duration="19000" />
+      <workItem from="1759751593346" duration="15000" />
+      <workItem from="1759751920804" duration="319000" />
+      <workItem from="1759753194611" duration="1393000" />
     </task>
     <task id="LOCAL−00001" summary="Blazor Övning">
       <option name="closed" value="true" />
@@ -173,7 +232,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1759746751411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="-">
+      <option name="closed" value="true" />
+      <created>1759747095208</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1759747095208</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

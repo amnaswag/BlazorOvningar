@@ -1,19 +1,16 @@
-﻿<h3>StudentManager</h3>
-
-@page "/students"
+﻿@page "/students"
 @inject IStudentService StudentService
-@using BlazorÖvningar.Models 
-@using BlazorÖvningar.Services
-
+@using BlazorÖvningar.Models
+@using System.Linq
 
 <h3>Student Manager</h3>
 
 <table class="table">
     <thead>
         <tr>
-            <th>Name <button class="btn btn-link" @onclick="() => SortByName()">⇅</button></th>
-            <th>Grade <button class="btn btn-link" @onclick="() => SortByGrade()">⇅</button></th>
-            <th>Action</th>
+            <th>Namn <button class="btn btn-link" @onclick="() => SortByName()">⇅</button></th>
+            <th>Betyg <button class="btn btn-link" @onclick="() => SortByGrade()">⇅</button></th>
+            <th>Åtgärd</th>
         </tr>
     </thead>
     <tbody>
@@ -31,9 +28,11 @@
 </table>
 
 <h4>Lägg till student</h4>
-<input @bind="NewStudent.Name" placeholder="Namn" />
-<input @bind="NewStudent.Grade" type="number" placeholder="Betyg" />
-<button class="btn btn-success" @onclick="AddStudent">Lägg till</button>
+<div class="d-flex gap-2 align-items-center">
+    <input @bind="NewStudent.Name" placeholder="Namn" class="form-control" />
+    <input @bind="NewStudent.Grade" type="number" placeholder="Betyg (1-5)" class="form-control w-25" />
+    <button class="btn custom-btn" @onclick="AddStudent">Lägg till</button>
+</div>
 
 
 @code {
@@ -41,7 +40,6 @@
     private Student NewStudent = new Student();
     private bool sortAscending = true;
 
-    // Laddar data vid komponentens start
     protected override void OnInitialized()
     {
         Students = StudentService.GetStudents();
@@ -49,18 +47,18 @@
 
     private void AddStudent()
     {
-        if (!string.IsNullOrWhiteSpace(NewStudent.Name))
+        if (!string.IsNullOrWhiteSpace(NewStudent.Name) && NewStudent.Grade >= 1 && NewStudent.Grade <= 5)
         {
             StudentService.AddStudent(NewStudent);
-            Students = StudentService.GetStudents(); // Uppdatera listan
-            NewStudent = new Student(); // Rensa formuläret
+            Students = StudentService.GetStudents();
+            NewStudent = new Student();
         }
     }
 
     private void RemoveStudent(Guid id)
     {
         StudentService.DeleteStudent(id);
-        Students = StudentService.GetStudents(); // Uppdatera listan
+        Students = StudentService.GetStudents();
     }
 
     private void SortByName()
