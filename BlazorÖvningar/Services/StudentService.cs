@@ -10,9 +10,9 @@ public class StudentService : IStudentService
     private List<Student> _students = new List<Student>
     {
         // Lägg till några startdata
-        new Student { Name = "Alice", Grade = 5 },
-        new Student { Name = "Bob", Grade = 3 },
-        new Student { Name = "Charlie", Grade = 4 }
+        new Student { Name = "Amna", Grade = 5 },
+        new Student { Name = "Israa", Grade = 3 },
+        new Student { Name = "Arber", Grade = 4 }
     };
 
     public List<Student> GetStudents()
